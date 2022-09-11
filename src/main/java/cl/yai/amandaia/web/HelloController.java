@@ -1,4 +1,4 @@
-package com.example.springboot;
+package cl.yai.amandaia.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "Greetings from Amanda I.A.!";
 	}
 
 }

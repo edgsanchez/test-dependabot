@@ -8,11 +8,11 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>spring-boot-initial</artifactId>
+	<groupId>cl.yai</groupId>
+	<artifactId>amanda-ia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-initial</name>
-	<description>Demo project for Spring Boot</description>
+	<name>amanda-ia</name>
+	<description>Amanda I.A. web-frontend</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

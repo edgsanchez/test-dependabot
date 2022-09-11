@@ -1,4 +1,4 @@
-package com.example.springboot;
+package cl.yai.amandaia.web;
 
 import java.util.Arrays;
 
