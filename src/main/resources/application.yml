@@ -1,6 +1,8 @@
 spring.application.name: amanda-ia
 server.port: ${PORT:8080}
 
+datadog.host: localhost
+datadog.isEnabled: false
 springdoc.swagger-ui.path: /
 
 cloudkafka.topic: 1xpbgxp5-yai
@@ -11,7 +13,7 @@ cloudkafka.password: YBepu9SHThb2LE90mvnozsDCfnsmUXxq
 spring:
   data:
     mongodb:
-      uri: ${URL_DB:mongodb://localhost:27017/ml-db?retryWrites=true&w=majority}
+      uri: ${URL_DB:mongodb://localhost:27017/aia-db?retryWrites=true&w=majority}
 
 application.service: urls-ln
 application.version: @project.version@

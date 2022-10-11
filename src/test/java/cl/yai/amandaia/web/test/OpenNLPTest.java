@@ -61,7 +61,8 @@ public final class OpenNLPTest {
 	public void dependencyParse() {
 		log.info("start spanish -test01-ooo");
 		try {
-			String text = "Hey Amanda lee mi correo";
+			//String text = "Hey Amanda lee mi correo";
+			String text = "Cats fue una película realmente terrible. Esa película fue un desastre natural.";
 			StanfordCoreNLP pipeline = new StanfordCoreNLP("spanish");
 			CoreDocument document = pipeline.processToCoreDocument(text);
 			log.info(document.text());		

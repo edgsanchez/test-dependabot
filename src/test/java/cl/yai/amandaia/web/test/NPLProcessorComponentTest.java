@@ -24,7 +24,8 @@ public class NPLProcessorComponentTest {
 	@Test
 	public void dependencyParse01() {
 		log.info("dependencyParse01");
-		String txt1 = "{\"head\": {\"producer\": \"aia-language-speech_recognition\", \"creationDate\": \"2022-09-19 20:24:38\"}, \"body\": {\"txt\": \"Ella manda modo análisis\"}}";
-		nlpComponent.getCoreDocument("{\"head\": {\"producer\": \"aia-language-speech_recognition\", \"creationDate\": \"2022-09-19 20:30:14\"}, \"body\": {\"txt\": \"y fuiste durante años\"}}");
+		String txt1 = "{'head': {'producer': 'aia-language-speech_recognition', 'creationDate': '2022-10-04 02:10:50'}, 'body': {'cmd': 'ejecutar encender bomba', 'msg': 'Hey Google ejecutar encender bomba', 'classification': None, 'isAia': False}}";
+		
+		nlpComponent.getCoreDocument(txt1);
 	}
 }

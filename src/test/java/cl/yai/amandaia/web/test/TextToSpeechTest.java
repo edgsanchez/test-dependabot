@@ -29,7 +29,7 @@ public final class TextToSpeechTest {
 	public void engTest() {
 		log.info("Eng TextToSpeeech");
 		GTTS4J gtts4j = new GTTS4JImpl();
-		String text = "Hellow Edgar you are my master";
+		String text = "Hola como estas tu el día de hoy";
 		String lang = "en";
 		boolean slow = false;
 		String filePath = System.getProperty("user.dir") + File.separator + "demo.mp3";
@@ -55,7 +55,7 @@ public final class TextToSpeechTest {
 	public void espTest() {
 		log.info("Esp TextToSpeeech");
 		GTTS4J gtts4j = new GTTS4JImpl();
-		String text = "Hola Raúl Andrés. ¿Cómo estas?";
+		String text = "Estoy acompañando a mis niños el día de hoy";
 		String lang = "es";
 		boolean slow = false;
 		byte[] data;
