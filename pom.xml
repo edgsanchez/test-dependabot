@@ -83,7 +83,7 @@
 		<dependency>
 			<groupId>com.mercadolibre.metrics</groupId>
 			<artifactId>datadog-metric-wrapper</artifactId>
-			<version>0.1.1</version>
+			<version>1.1.2-wms-ob</version>
 		</dependency>
 	     <dependency>
 	       <groupId>com.h2database</groupId>
